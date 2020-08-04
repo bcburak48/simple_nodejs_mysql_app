@@ -1,0 +1,26 @@
+MySql Database'de aşağıdaki Query i giriniz:
+
+CREATE DATABASE crud_db;
+
+CREATE TABLE user(
+user_id INT(11) PRIMARY KEY AUTO_INCREMENT,
+user_first_name VARCHAR(200),
+user_last_name VARCHAR(200),
+user_gender VARCHAR(6),
+user_phone VARCHAR(10),
+user_email VARCHAR(100),
+user_birth_date DATE,
+user_job VARCHAR(200)
+)ENGINE=INNODB;
+
+
+
+Sonra bu dosya yolu içinde Komut satırını açınız.
+
+node index
+
+komutuyla server'ı çalıştırınız.
+
+Sayfa linki:
+
+http://localhost:8000
